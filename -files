@@ -1,0 +1,20 @@
+[33md7f1930[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m feat: creer le backend Express
+ README.md              |   0
+ back/.env              |   1 [32m+[m
+ back/.gitignore        |   1 [32m+[m
+ back/index.js          |  16 [32m++[m
+ back/package-lock.json | 613 [32m++++++++++++++++++++++++++++++++++++++++++++++++[m[31m-[m
+ back/package.json      |  15 [32m+[m[31m-[m
+ 6 files changed, 641 insertions(+), 5 deletions(-)
+[33mbed79dd[m chore: creer la structure frontend et backend
+ back/.env              |   0
+ back/.gitignore        |   1 [32m+[m
+ back/package-lock.json | 855 [32m+++++++++++++++++++++++++++++++++++++++++++++++++[m
+ back/package.json      |  17 [32m+[m
+ 4 files changed, 873 insertions(+)
+[33m4178d92[m first commit
+ back/index.js    |  0
+ front/in dex.js  |  0
+ front/index.css  |  4 [32m++++[m
+ front/index.html | 21 [32m+++++++++++++++++++++[m
+ 4 files changed, 25 insertions(+)

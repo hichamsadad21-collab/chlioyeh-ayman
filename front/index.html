@@ -1,21 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mes éléments</title>
+     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    
-    <h1>hello hicham sadad lachheb front</h1>
+  <main>
+    <h1>Mes éléments</h1>
 
+    <form id="item-form" novalidate>
+      <label for="name">Nom</label>
+      <input id="name" name="name" type="text" minlength="2" required autocomplete="off">
 
+      <label for="description">Description</label>
+      <input id="description" name="description" type="text" autocomplete="off">
 
+      <button type="submit" id="submit-btn">Ajouter l'élément</button>
+    </form>
 
+    <p id="message" role="status" aria-live="polite"></p>
 
+    <h2>Liste</h2>
+    <ul id="items"></ul>
+  </main>
 
-
-    <script src="./in dex.js"></script>
+  <script src="./config.js"></script>
+  <script src="./index.js"></script>
 </body>
 </html>
