@@ -1,6 +1,4 @@
-h1{
-    display: flex;
-    justify-:root {
+:root {
   --bg: #f5f7fa;
   --card: #ffffff;
   --text: #1c2430;
@@ -68,5 +66,4 @@ li span { color: var(--muted); font-size: 0.9rem; }
 @media (min-width: 600px) {
   form { grid-template-columns: 1fr 1fr; }
   button { grid-column: 1 / -1; }
-}content: center;
 }
